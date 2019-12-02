@@ -31,7 +31,7 @@ img {
 
 .title {
   padding-top: 130px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 .title__main {
@@ -44,23 +44,27 @@ img {
   font-size: 20px;
   font-weight: 300;
   text-align: left;
-  line-height: 1.6;
+  line-height: 1.8;
   width: auto;
-  color: #a9a9a9;
+  color: #555555;
+  padding-top: 20px;
 }
 
 .sub__title {
   padding-top: 30px;
+  padding-bottom: 10px;
   font-size: 22px;
   font-weight: 400;
 }
 
 .sub__titletext {
   color: #353535;
+  line-height: 1.8;
 }
 
 .skills {
-  padding-top: 20px;
+  padding-top: 30px;
+  width: 440px;
 }
 
 .website {
@@ -129,12 +133,17 @@ img {
 }
 
 .card-description {
-  color: #a9a9a9;
+  color: #949494;
   font-size: 14px;
   font-weight: 300;
 }
 
 /* Card details */
+
+.card-dog-walk {
+  background: #DADADA url('../img/dog-walk-thumb.png') center center no-repeat;
+  background-size: 320px;
+}
 
 .card-checkout {
   background: #DADADA url('../img/checkout/checkout-thumb.png') center center no-repeat;
@@ -232,6 +241,7 @@ img {
   font-size: 18px;
   margin-top: 0;
   color: #555555;
+  line-height: 1.8em;
 
 }
 
@@ -252,7 +262,8 @@ img {
 
 .avatar {
   display: block;
-  max-width: 132px;
+  max-width: 210px;
+  margin-top: -6px;
 }
 
 .ml-auto {
@@ -329,7 +340,7 @@ img {
 }
 
 .email {
-  color: #a9a9a9;
+  color: #949494;
   font-size: 16px;
   margin: 0;
   float: right;
@@ -373,6 +384,18 @@ img {
   text-decoration: none;
   transition: all 0.3s ease;
 }
+.dog-walk {
+  font-size: 16px;
+  color: #028DC4;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.dog-walk:hover {
+  font-size: 16px;
+  color: #00506F;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
 
 /* Lists */
 
@@ -382,6 +405,7 @@ li {
 
 #footer-links {
   float: left;
+  margin-left: -8px;
 }
 
 #footer-links > ul > a,
@@ -467,6 +491,12 @@ li.instagram {
 	padding: 0;
 	box-sizing: border-box;
 }
+.compact-container {
+	width: 1030px;
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+}
 .np-top {
 	padding-top: 0;
 }
@@ -545,6 +575,7 @@ li.instagram {
   .offer__text {
     margin: 20px auto;
     width: auto;
+    line-height: 2;
   }
   .icons {
     justify-content: center;
