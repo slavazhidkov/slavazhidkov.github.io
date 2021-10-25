@@ -50,6 +50,20 @@ img {
   padding-top: 20px;
 }
 
+.title__textlink {
+  font-size: 20px;
+  color: #F12D3A;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.title__textlink:hover {
+  font-size: 20px;
+  color: #BB202A;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
 .sub__title {
   padding-top: 30px;
   padding-bottom: 10px;
@@ -139,6 +153,16 @@ img {
 }
 
 /* Card details */
+
+.card-mobile-check-deposit {
+  background: #DADADA url('../img/mobile-check-deposit-thumb.png') center center no-repeat;
+  background-size: 320px;
+}
+
+.card-videochat {
+  background: #DADADA url('../img/videochat-thumb.png') center center no-repeat;
+  background-size: 320px;
+}
 
 .card-dog-walk {
   background: #DADADA url('../img/dog-walk-thumb.png') center center no-repeat;
