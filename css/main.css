@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5 {
   color: #353535;
 }
 
+h6 {
+  color: #949494;
+}
+
 h3 {
   font-weight: 400;
 }
@@ -72,13 +76,13 @@ img {
 }
 
 .sub__titletext {
-  color: #353535;
+  color: #555555;
   line-height: 1.8;
 }
 
 .skills {
   padding-top: 30px;
-  width: 440px;
+  width: 480px;
 }
 
 .website {
@@ -154,9 +158,14 @@ img {
 
 /* Card details */
 
+.card-access-digital {
+  background: #DADADA url('../img/access-digital-thumb.png') center center no-repeat;
+  background-size: 322px;
+}
+
 .card-mobile-check-deposit {
   background: #DADADA url('../img/mobile-check-deposit-thumb.png') center center no-repeat;
-  background-size: 320px;
+  background-size: 322px;
 }
 
 .card-videochat {
@@ -395,6 +404,20 @@ img {
   transition: all 0.3s ease;
 }
 
+.resume2 {
+  font-size: 20px;
+  color: #F12D3A;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.resume2:hover {
+  font-size: 20px;
+  color: #BB202A;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
 .macu {
   font-size: 16px;
   color: #03ACC8;
@@ -405,6 +428,20 @@ img {
 .macu:hover {
   font-size: 16px;
   color: #1093A9;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.hobbies {
+  font-size: 16px;
+  color: #F12D3A;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.hobbies:hover {
+  font-size: 16px;
+  color: #BB202A;
   text-decoration: none;
   transition: all 0.3s ease;
 }
